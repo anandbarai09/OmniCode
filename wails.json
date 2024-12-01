@@ -1,0 +1,14 @@
+{
+    "name": "My IDE",
+    "description": "A lightweight, extensible IDE",
+    "outputdir": "build/bin",
+    "frontend:dir": "frontend",
+    "frontend:dev:install": "deno install",
+    "frontend:dev:build": "deno run build",
+    "frontend:dev": "deno run dev",
+    "frontend:dev:port": 3000,
+    "frontend:builddir": "frontend/dist",
+    "frontend:command": "deno run build",
+    "version": "0.1.0",
+    "wailsVersion": "v2"
+  }
